@@ -1,0 +1,30 @@
+.container {
+  @apply hidden col-span-3 lg:flex z-40 h-2/5 transition-transform -translate-x-full sm:translate-x-0;
+}
+
+.innerContainer {
+  @apply w-full  px-6 py-8  bg-gray-50 rounded-2xl h-auto;
+}
+
+.headerContainer {
+  @apply flex gap-3 items-center mb-5 justify-between px-4;
+}
+
+.userName {
+  @apply text-xl font-semibold mb-1;
+}
+.notificationsContainer {
+  @apply hidden sm:flex;
+}
+
+.notificationsInnerContainer {
+  @apply relative  inline-flex;
+}
+
+.quantity {
+  @apply absolute flex items-center justify-center text-white w-5 h-5 bottom-auto  left-[-20px] top-0 z-10  -translate-y-1/2 translate-x-2/4 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 rounded-full border border-white bg-pink-400 p-1 text-xs;
+}
+
+.notificationsIconContainer {
+  @apply flex items-center justify-center rounded-lg  text-center text-white shadow-lg dark:text-gray-200;
+}

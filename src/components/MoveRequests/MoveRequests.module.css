@@ -1,0 +1,27 @@
+.container {
+  @apply justify-between items-center gap-x-6 overflow-hidden grid grid-cols-1 lg:grid-cols-2 py-2.5  mt-4;
+}
+
+.innerContainer {
+  @apply py-7 px-5  text-gray-700 flex items-center justify-between;
+}
+
+.title {
+  @apply text-lg text-gray-600;
+}
+
+.totalEarn {
+  @apply text-lg font-semibold mt-0.5;
+}
+
+.percentage {
+  @apply text-[17px]  mt-0.5 text-green-600 flex items-center;
+}
+
+.imgContainer {
+  @apply bg-gray-100 p-4 rounded-full;
+}
+
+.percentageDown {
+  @apply text-[17px]  mt-0.5 text-red-600 flex items-center;
+}

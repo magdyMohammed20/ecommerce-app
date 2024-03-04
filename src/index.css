@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+}
+
+@layer {
+  .main-container {
+    @apply container mx-auto px-4;
+  }
+
+  .header {
+    @apply font-extrabold text-center text-white tracking-wide my-8;
+  }
+}

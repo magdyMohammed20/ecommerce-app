@@ -1,0 +1,26 @@
+{
+  "side_nav": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Pricing": "Pricing",
+    "Contact": "Contact"
+  },
+
+  "links": {
+    "internal_links": {
+      "Home": "Home",
+      "About": "About",
+      "Guide": "Guide",
+      "Blocks": "Blocks",
+      "Contact_us": "Contact_us",
+      "terms_of_use": "terms of use"
+    },
+    "other_links": {
+      "title": "We change the way UI components librairies are used",
+      "privacy": "privacy",
+      "tip": "Terms Of Service",
+      "need_help": "Need help?"
+    }
+  }
+}

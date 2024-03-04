@@ -1,0 +1,25 @@
+{
+  "side_nav": {
+    "Home": "الرئيسية",
+    "About": "عنا",
+    "Services": "الخدمات",
+    "Pricing": "التسعير",
+    "Contact": "التواصل"
+  },
+  "links": {
+    "internal_links": {
+      "about": "من نحن",
+      "contact": "تواصل معنا",
+      "startSell": "ابدأ البيع",
+      "beAffect": "كن مؤثرا",
+      "sellerGate": "بوابة التجار"
+    },
+    "other_links": {
+      "request": "كيفية الطلب",
+      "info": "معلومات الشحن",
+      "questions": "الأسئلة المتكررة",
+      "policy": "سياسة الخصوصيه",
+      "terms": "شروط الاستخدام"
+    }
+  }
+}

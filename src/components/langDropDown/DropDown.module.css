@@ -1,0 +1,19 @@
+.container {
+  @apply relative border-r border-r-slate-800 border-l border-l-slate-800 px-4;
+}
+
+.buttonStyle {
+  @apply gap-1  dark:text-white text-slate-950  focus:outline-none  font-medium rounded-lg text-sm  py-1 text-center inline-flex items-center;
+}
+
+.dropDown_container {
+  @apply z-[999] bg-white divide-y divide-gray-100 rounded-lg  w-28 lg:w-44 dark:bg-gray-950 shadow-lg absolute top-full mt-1;
+}
+
+.dropDown_list {
+  @apply py-2 text-sm text-gray-700 dark:text-gray-200;
+}
+
+.select_option {
+  @apply cursor-pointer select-none px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-900 dark:hover:text-white flex items-center gap-2;
+}

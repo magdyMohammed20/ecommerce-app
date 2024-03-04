@@ -1,0 +1,19 @@
+.container {
+  @apply flex justify-between items-center gap-x-6 overflow-hidden bg-gray-50 py-2.5 sm:px-3.5 rounded-lg px-5;
+}
+
+.innerContainer {
+  @apply flex items-center gap-2;
+}
+
+.title {
+  @apply text-lg text-gray-600;
+}
+
+.totalEarn {
+  @apply text-lg font-semibold mt-0.5 block;
+}
+
+.button {
+  @apply sm:static lg:block bg-black text-white px-9 cursor-pointer py-3 rounded-full focus:ring-4 focus:ring-gray-400 transition-all ease-linear;
+}
